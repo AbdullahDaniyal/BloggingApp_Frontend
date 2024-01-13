@@ -17,6 +17,6 @@ This repository contains the frontend code for a feature-rich blogging website. 
 3. CSS for styling
 4. Backend integration (Node.js, Express, MongoDB)
 ## Integrating with the Backend
-Ensure that the backend is running (follow the instructions in its repository). The frontend is configured to connect with the backend routes for various functionalities.
+Ensure that the backend is running. You can follow the link https://github.com/AbdullahDaniyal/BloggingApp_Backend.git and then clone the backend (follow the instructions in its repository). The frontend is configured to connect with the backend routes for various functionalities.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
