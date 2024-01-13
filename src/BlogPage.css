@@ -1,0 +1,239 @@
+.blog-container {
+  background-color: #f4f8fb;
+  /* Light background color */
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  /* Dark gray text color */
+  margin-bottom: 20px;
+}
+
+/* Style for the notification bell icon */
+.notification-bell {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.notification-bell img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Style for the notification count badge */
+.notification-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #e74c3c;
+  /* Red color for notifications */
+  color: #fff;
+  /* White text color */
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+/* Style for the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar .user-button {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Light gray border */
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.search-bar button {
+  background-color: #1da1f2;
+  /* Twitter blue */
+  color: #fff;
+  /* White text color */
+  padding: 0px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 40px;
+}
+
+.search-bar button:hover {
+  background-color: #1a91da;
+  /* Slightly darker blue on hover */
+}
+
+/* Style for the sorting buttons */
+.sorting-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sorting-buttons .user-button {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.sorting-buttons button {
+  background-color: #1da1f2;
+  /* Twitter blue */
+  color: #fff;
+  /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sorting-buttons button:hover {
+  background-color: #1a91da;
+  /* Slightly darker blue on hover */
+}
+
+/* Style for the blog post */
+.blog-post {
+  margin-bottom: 20px;
+  background-color: #fff;
+  /* White background color for each post */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post button {
+  background-color: #1da1f2;
+  /* Twitter blue */
+  color: #fff;
+  /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.blog-post button:disabled {
+  background-color: #ccc;
+  /* Light gray for disabled buttons */
+  cursor: not-allowed;
+}
+
+.blog-post button:hover {
+  background-color: #1a91da;
+  /* Slightly darker blue on hover */
+}
+
+.blog-post h2 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  color: #333;
+  /* Dark gray text color */
+}
+
+.blog-post p {
+  margin: 10px 0;
+  color: #666;
+  /* Gray text color */
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: #999;
+  /* Light gray text color */
+}
+
+.blog-footer span {
+  font-size: 0.9rem;
+}
+
+/* Style for rating and comment input */
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Light gray border */
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.black-text {
+  color: #333;
+  /* Dark gray text color */
+}
+
+.comment {
+  margin: 5px 0;
+}
+
+/* Style for the "Add Rating" and "Add Comment" buttons */
+.blog-post button[type="submit"] {
+  margin-top: 10px;
+  background-color: #1da1f2;
+  /* Twitter blue */
+  color: #fff;
+  /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.blog-post button[type="submit"]:hover {
+  background-color: #1a91da;
+  /* Slightly darker blue on hover */
+}
+
+/* Style for the "Create Blog" button */
+
+.user-button img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  top: 8px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.DoSmall:hover {
+  background-color: #333;
+ 
+  transform: scale(1.5);
+  /* font-size: small; */
+  padding: 0%;
+  /* flex-shrink: 20px; */
+}

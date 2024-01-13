@@ -1,0 +1,147 @@
+/* ViewUserBlogs.css */
+
+.blog-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 85px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.update-user-button {
+    display: block;
+    width: auto;
+    padding: 10px 1px;
+    background-color: #4c56af;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease-in-out;
+    align-self: center;
+    margin-bottom: 10px;
+
+}
+
+.update-user-button:hover {
+    background-color: #03333f;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog-post button {
+    width: 180px;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.black-text {
+    color: #555;
+    line-height: 1.6;
+}
+
+.blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.user-button img {
+    height: 40px;
+    /* Fixed height for all buttons for uniformity */
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Specific class for the delete icon to control its size separately */
+.bin-icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+    margin-left: 15px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 20px;
+    /* Adjust width as needed to match the aspect ratio of the bin icon */
+}
+
+/* Specific class for the update icon to control its size separately */
+.update-icon {
+    width: 40px;
+    height: 40px;
+    /* Adjust width as needed to match the aspect ratio of the update icon */
+}
+
+.user-button:hover img {
+    transform: scale(1.1);
+}
+
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .blog-container {
+        margin: 20px;
+    }
+
+    .blog-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .update-user-button {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Loading styles */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+}
+
+.search-bar button {
+    position: relative;
+    bottom: 10px;
+    width: 100px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+}
